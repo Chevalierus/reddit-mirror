@@ -1,0 +1,77 @@
+.comment {
+    display: flex;
+}
+
+.commentBlock {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.commentBtn {
+    display: flex;
+    flex-wrap: row nowrap;
+    align-items: center;
+    margin-right: 27px;
+}
+
+.commentBtn > svg + span {
+    margin-left: 7px;
+}
+
+.username {
+    margin-right: 5px;
+}
+
+.createdAt {
+    margin-right: 5px;
+}
+
+.status {
+    background-color: #d9d9d9;
+    padding: 2px 7px 4px 7px;
+}
+
+.commentBlock {
+    display: flex;
+}
+
+.commentList {
+    width: 100%;
+    height: 100%;
+}
+
+.commentKarma{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.commentKarma> button.up:hover > svg > path {
+  fill: var(--green);
+}
+
+.commentKarma> button.down:hover > svg > path {
+  fill: var(--orange);
+}
+
+svg.down {
+    transform: rotate(180deg);
+}
+
+.commentShow {
+    display: inline-block;
+    width: 5px;
+    height: 100%;
+    color: black;
+}
+
+@media all and (min-width: 1540px) {
+    .commentShow {
+        display: inline-block;
+        width: 5px;
+        height: 100%;
+        color: black;
+    }
+}

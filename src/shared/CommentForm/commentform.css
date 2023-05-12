@@ -1,0 +1,31 @@
+.commentForm {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+.commentTextarea {
+    height: 90px;
+}
+
+.commentChange {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.commentSubmit {
+    background-color: #cc6633;
+    padding: 17px 50px;
+}
+
+.commentFormat {
+    background-color: #e5e5e5;
+    padding: 17px 95px 17px 20px;
+    width: 100%;
+}
+
+.commentFormatFunc:not(:last-child) {
+    margin-right: 25px;
+}
